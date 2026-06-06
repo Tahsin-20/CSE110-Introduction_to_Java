@@ -1,5 +1,3 @@
-package Lab_Assignment_01;
-
 public class Task12 {
     public static void main(String[] args){
 
