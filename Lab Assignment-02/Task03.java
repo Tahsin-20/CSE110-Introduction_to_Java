@@ -1,29 +1,15 @@
-import java.util.Scanner;
-public class Task03{
-  public static void main(String[] args){
-    
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter a number:");
-    int num1 = sc.nextInt();
-    System.out.println("Enter another number:");
-    int num2 = sc.nextInt();
-    System.out.println("Enter a sign:");
-    String operator= sc.next();
+public class Task03 {
+    public static void main(String[] args){
 
-    //Use.equals() method to compare two strings
+		int x=4;
 
-    if (operator.equals("+")) {
-      System.out.println(num1+num2);
-    }
-    else if(operator.equals("-")){
-      System.out.println(num1-num2);
-    }
-    else if (operator.equals("*")) {
-      System.out.println(num1*num2);
-      }
-    else if(operator.equals("/")){
-      System.out.println(num1/num2);
-    }
-    sc.close();
-  }
+		double circ=2*3.1416*x;
+
+		double area=3.1416*x*x;
+
+		System.out.println(circ);
+
+		System.out.println(area);
+		
+	}
 }
